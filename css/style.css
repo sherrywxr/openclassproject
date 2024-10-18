@@ -362,15 +362,6 @@ nav ul li a:hover {
 
 /* Tablet View - Screen size <= 1024px */
 @media (max-width: 1024px) {
-  .header-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #fff;
-  }
-
   nav ul li a::before {
     content: "";
     position: absolute;
@@ -425,6 +416,15 @@ nav ul li a:hover {
   }
 }
 @media (max-width: 768px) {
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
   .main-container {
     padding: 0;
   }
